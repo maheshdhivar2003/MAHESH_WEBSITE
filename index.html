@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mahesh Dhivar | Full Stack Developer</title>
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Decorative blobs -->
+  <div class="blob b1"></div>
+  <div class="blob b2"></div>
+
+  <!-- Header -->
+  <header class="header" id="header">
+    <div class="container header-wrap">
+      <a class="logo" href="#home">Mahesh<span></span></a>
+
+      <nav class="nav" id="nav">
+        <a href="#home" class="nav-link">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#experience" class="nav-link">Experience</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <div class="header-actions">
+        <a class="mini-btn" href="#contact"><i class="fa-solid fa-paper-plane"></i> Hire Me</a>
+        <button class="icon-btn" id="menuBtn" aria-label="Open menu">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile nav panel -->
+    <div class="mobile-nav" id="mobileNav">
+      <a href="#home" class="m-link">Home</a>
+      <a href="#about" class="m-link">About</a>
+      <a href="#skills" class="m-link">Skills</a>
+      <a href="#projects" class="m-link">Projects</a>
+      <a href="#experience" class="m-link">Experience</a>
+      <a href="#contact" class="m-link">Contact</a>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero" id="home">
+    <div class="container hero-grid">
+      <div class="hero-left reveal">
+        <div class="pill">
+          <i class="fa-solid fa-code"></i>
+          Full Stack Developer • Fresher
+        </div>
+
+        <h1>
+          Hello, I’m <span>Mahesh Sanjay Dhivar</span>
+        </h1>
+
+        <p class="hero-sub">
+          I build clean, responsive web applications using <b>HTML, CSS, Bootstrap, JavaScript</b> and backend with
+          <b>Node.js, Express, MySQL</b>.
+        </p>
+
+        <div class="hero-badges">
+          <div class="badge"><i class="fa-solid fa-location-dot"></i> Ahilyanagar, MH</div>
+          <div class="badge"><i class="fa-solid fa-envelope"></i> maheshdhivar2003@gmail.com</div>
+          <div class="badge"><i class="fa-solid fa-phone"></i> 8262007746</div>
+        </div>
+
+        <div class="hero-cta">
+          <a class="btn primary" href="#projects"><i class="fa-solid fa-eye"></i> View Projects</a>
+          <a class="btn ghost" target="_blank" rel="noreferrer"
+             href="https://www.linkedin.com/in/mahesh-dhivar-a220a33a7">
+            <i class="fa-brands fa-linkedin"></i> LinkedIn
+          </a>
+          <a class="btn ghost" target="_blank" rel="noreferrer"
+             href="https://wa.me/918262007746?text=Hello%20Mahesh%2C%20I%20saw%20your%20portfolio%20and%20want%20to%20connect.">
+            <i class="fa-brands fa-whatsapp"></i> WhatsApp
+          </a>
+        </div>
+
+        <div class="hero-stats">
+          <div class="stat-card">
+            <div class="stat-no">2+</div>
+            <div class="stat-txt">Projects</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-no">10+</div>
+            <div class="stat-txt">Skills</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-no">∞</div>
+            <div class="stat-txt">Learning</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-right reveal">
+        <div class="photo-card">
+          <img src="me.jpeg" alt="Mahesh Dhivar Photo">
+          <div class="photo-glow"></div>
+        </div>
+
+        <div class="mini-grid">
+          <div class="mini-card">
+            <div class="mini-ico"><i class="fa-solid fa-laptop-code"></i></div>
+            <div>
+              <div class="mini-title">Frontend</div>
+              <div class="mini-sub">HTML • CSS • Bootstrap</div>
+            </div>
+          </div>
+          <div class="mini-card">
+            <div class="mini-ico"><i class="fa-solid fa-server"></i></div>
+            <div>
+              <div class="mini-title">Backend</div>
+              <div class="mini-sub">Node • Express</div>
+            </div>
+          </div>
+          <div class="mini-card">
+            <div class="mini-ico"><i class="fa-solid fa-database"></i></div>
+            <div>
+              <div class="mini-title">Database</div>
+              <div class="mini-sub">MySQL • SQL</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section-head reveal">
+        <h2>About Me</h2>
+        <p>
+          Motivated Full Stack Developer with strong fundamentals in frontend & backend.
+          I enjoy creating clean UI and building CRUD-based web modules.
+        </p>
+      </div>
+
+      <div class="about-grid">
+        <div class="glass reveal">
+          <h3><i class="fa-solid fa-user"></i> Profile</h3>
+          <p class="muted">
+            Fresher developer with good understanding of web development, routing, form handling and databases.
+            Focused on learning modern practices and delivering real-world projects.
+          </p>
+          <div class="chips">
+            <span>Responsive UI</span>
+            <span>CRUD</span>
+            <span>Admin Panels</span>
+            <span>MySQL</span>
+          </div>
+        </div>
+
+        <div class="glass reveal">
+          <h3><i class="fa-solid fa-language"></i> Languages</h3>
+          <ul class="clean-list">
+            <li><i class="fa-solid fa-check"></i> Marathi — Native</li>
+            <li><i class="fa-solid fa-check"></i> Hindi — Proficient</li>
+            <li><i class="fa-solid fa-check"></i> English — Proficient</li>
+          </ul>
+
+          <div class="social-row">
+            <a class="social" target="_blank" rel="noreferrer"
+               href="https://www.linkedin.com/in/mahesh-dhivar-a220a33a7"><i class="fa-brands fa-linkedin"></i></a>
+            <a class="social" href="mailto:maheshdhivar2003@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+            <a class="social" href="tel:+918262007746"><i class="fa-solid fa-phone"></i></a>
+            <a class="social" target="_blank" rel="noreferrer"
+               href="https://wa.me/918262007746"><i class="fa-brands fa-whatsapp"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section class="section" id="skills">
+    <div class="container">
+      <div class="section-head reveal">
+        <h2>Skills</h2>
+        <p>Tools & technologies I use.</p>
+      </div>
+
+      <div class="skills-grid">
+        <div class="skill reveal">
+          <div class="skill-top"><span>HTML</span><span>90%</span></div>
+          <div class="bar"><div class="fill" style="--w:90%"></div></div>
+        </div>
+        <div class="skill reveal">
+          <div class="skill-top"><span>CSS</span><span>85%</span></div>
+          <div class="bar"><div class="fill" style="--w:85%"></div></div>
+        </div>
+        <div class="skill reveal">
+          <div class="skill-top"><span>Bootstrap</span><span>85%</span></div>
+          <div class="bar"><div class="fill" style="--w:85%"></div></div>
+        </div>
+        <div class="skill reveal">
+          <div class="skill-top"><span>JavaScript</span><span>75%</span></div>
+          <div class="bar"><div class="fill" style="--w:75%"></div></div>
+        </div>
+        <div class="skill reveal">
+          <div class="skill-top"><span>Node.js</span><span>70%</span></div>
+          <div class="bar"><div class="fill" style="--w:70%"></div></div>
+        </div>
+        <div class="skill reveal">
+          <div class="skill-top"><span>Express.js</span><span>70%</span></div>
+          <div class="bar"><div class="fill" style="--w:70%"></div></div>
+        </div>
+        <div class="skill reveal">
+          <div class="skill-top"><span>MySQL / SQL</span><span>75%</span></div>
+          <div class="bar"><div class="fill" style="--w:75%"></div></div>
+        </div>
+        <div class="skill reveal">
+          <div class="skill-top"><span>GitHub</span><span>70%</span></div>
+          <div class="bar"><div class="fill" style="--w:70%"></div></div>
+        </div>
+      </div>
+
+      <div class="tool-tags reveal">
+        <span class="tag">MongoDB</span>
+        <span class="tag">PHP</span>
+        <span class="tag">Postman</span>
+        <span class="tag">VS Code</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section class="section" id="projects">
+    <div class="container">
+      <div class="section-head reveal">
+        <h2>Projects</h2>
+        <p>Selected work (you can replace images/links anytime).</p>
+      </div>
+
+      <div class="projects-grid">
+        <article class="project reveal">
+          <div class="p-img">
+            <img src="https://images.unsplash.com/photo-1553729459-efe14ef6055d?auto=format&fit=crop&w=1200&q=60" alt="Project">
+          </div>
+          <div class="p-body">
+            <h3>Multi State Bank Website</h3>
+            <p class="muted">
+              Banking website with clean UI pages, service sections and policy pages. (Node + MySQL modules can be attached)
+            </p>
+            <div class="p-tags">
+              <span>Bootstrap</span><span>JavaScript</span><span>Node.js</span><span>MySQL</span>
+            </div>
+            <div class="p-actions">
+              <a class="btn primary sm" href="#contact"><i class="fa-solid fa-bolt"></i> Request Demo</a>
+              <a class="btn ghost sm" href="#contact"><i class="fa-brands fa-github"></i> GitHub Link</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project reveal">
+          <div class="p-img">
+            <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=1200&q=60" alt="Project">
+          </div>
+          <div class="p-body">
+            <h3>MSD News Portal</h3>
+            <p class="muted">
+              News portal UI with categories, modern layout, admin pages concept, and dynamic sections.
+            </p>
+            <div class="p-tags">
+              <span>HTML</span><span>CSS</span><span>Bootstrap</span>
+            </div>
+            <div class="p-actions">
+              <a class="btn primary sm" href="#contact"><i class="fa-solid fa-bolt"></i> Request Demo</a>
+              <a class="btn ghost sm" href="#contact"><i class="fa-brands fa-github"></i> GitHub Link</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section class="section" id="experience">
+    <div class="container">
+      <div class="section-head reveal">
+        <h2>Experience</h2>
+        <p>Internship & responsibilities.</p>
+      </div>
+
+      <div class="exp-grid">
+        <div class="glass reveal">
+          <div class="exp-top">
+            <div>
+              <h3>Full Stack Developer Intern</h3>
+              <div class="muted">A2Z IT HUB Pvt. Ltd.</div>
+            </div>
+            <span class="pill2">Internship</span>
+          </div>
+
+          <ul class="clean-list">
+            <li><i class="fa-solid fa-check"></i> Built responsive pages using HTML, CSS, Bootstrap</li>
+            <li><i class="fa-solid fa-check"></i> Worked on Node.js + Express routing and form handling</li>
+            <li><i class="fa-solid fa-check"></i> Integrated MySQL for CRUD modules</li>
+            <li><i class="fa-solid fa-check"></i> UI/UX improvements and bug fixing</li>
+          </ul>
+        </div>
+
+        <div class="glass reveal">
+          <h3><i class="fa-solid fa-graduation-cap"></i> Education</h3>
+          <div class="edu">
+            <div class="edu-item">
+              <div class="edu-dot"></div>
+              <div>
+                <b>BBA (Computer Applications)</b>
+                <div class="muted">Pune University</div>
+              </div>
+            </div>
+            <div class="edu-item">
+              <div class="edu-dot"></div>
+              <div>
+                <b>HSC (12th) — 2021</b>
+                <div class="muted">Pune University</div>
+              </div>
+            </div>
+            <div class="edu-item">
+              <div class="edu-dot"></div>
+              <div>
+                <b>SSC (10th) — 2019</b>
+                <div class="muted">Pune University</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="resume-box">
+            <div>
+              <b>Resume</b>
+              <div class="muted">Add your PDF link here</div>
+            </div>
+            <a class="btn primary sm" href="#" onclick="alert('Resume PDF link add कर.'); return false;">
+              <i class="fa-solid fa-download"></i> Download
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="section" id="contact">
+    <div class="container">
+      <div class="section-head reveal">
+        <h2>Contact</h2>
+        <p>Let’s connect and build something.</p>
+      </div>
+
+      <div class="contact-grid">
+        <div class="glass reveal">
+          <h3>Get in touch</h3>
+          <div class="info">
+            <div><i class="fa-solid fa-phone"></i> 8262007746</div>
+            <div><i class="fa-solid fa-envelope"></i> maheshdhivar2003@gmail.com</div>
+            <div><i class="fa-solid fa-location-dot"></i> Ahilyanagar, Maharashtra</div>
+          </div>
+
+          <div class="social-row">
+            <a class="social" target="_blank" rel="noreferrer"
+               href="https://www.linkedin.com/in/mahesh-dhivar-a220a33a7"><i class="fa-brands fa-linkedin"></i></a>
+            <a class="social" href="mailto:maheshdhivar2003@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+            <a class="social" href="tel:+918262007746"><i class="fa-solid fa-phone"></i></a>
+            <a class="social" target="_blank" rel="noreferrer"
+               href="https://wa.me/918262007746"><i class="fa-brands fa-whatsapp"></i></a>
+          </div>
+
+          <a class="whats" target="_blank" rel="noreferrer"
+             href="https://wa.me/918262007746?text=Hello%20Mahesh%2C%20I%20saw%20your%20portfolio%20and%20want%20to%20connect.">
+            <i class="fa-brands fa-whatsapp"></i> Message on WhatsApp
+          </a>
+        </div>
+
+        <div class="glass reveal">
+          <h3>Quick message (UI)</h3>
+          <p class="muted small">*This form is frontend only. Backend (Node.js) हवे असेल तर सांग.</p>
+
+          <form id="contactForm">
+            <div class="field">
+              <label>Your Name</label>
+              <input type="text" placeholder="Enter your name" required>
+            </div>
+            <div class="field">
+              <label>Email</label>
+              <input type="email" placeholder="Enter your email" required>
+            </div>
+            <div class="field">
+              <label>Message</label>
+              <textarea rows="4" placeholder="Write your message..." required></textarea>
+            </div>
+            <button class="btn primary full" type="submit"><i class="fa-solid fa-paper-plane"></i> Send</button>
+          </form>
+        </div>
+      </div>
+
+      <div class="copyright">
+        © 2026 Mahesh Dhivar. All Rights Reserved.
+      </div>
+    </div>
+  </section>
+
+  <!-- Back to top -->
+  <button class="to-top" id="toTop" aria-label="Back to top">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
